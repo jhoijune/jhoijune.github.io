@@ -216,7 +216,7 @@ date_sync <- function(df,date,date_ind=1){
 
 
 transpose_df <- function(df,col_names=F){
-    # 전치 모듈 (김선배 농가 같은 경우)
+    # 전치 모듈
     # 
     # 파일을 불러들일 때 header를 안쓰는 것을 추천함
     # df: 데이터 프레임  
@@ -236,7 +236,7 @@ transpose_df <- function(df,col_names=F){
 }
 
 transform_df <- function(df,year,sw="일",ew="토",col_names=T){
-    # 환경 변형 모듈 (김선배 농가 같은 경우)
+    # 환경 변형 모듈
     #
     # df: 데이터 프레임  
     # year: 처음시작하는 연도  
